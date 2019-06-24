@@ -23,7 +23,7 @@ Download from https://developer.nvidia.com/cuda-90-download-archive?target_os=Li
 runfile local installer type
 
 Follow the instructions on the web page
-validate installation with nvcc --version
+reboot the system and validate installation with nvcc --version
 install patches 
 
 # Install cudnn 7.5
