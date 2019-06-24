@@ -10,10 +10,13 @@ Driver 410.79
 Hardware
 2 Quadro k5000 compute capability 3.0
 
-# Remove previous NVIDIA software installations and install driver 410 
-sudo apt-get purge nvidia* 
-sudo apt-get update 
-sudo apt-get install nvidia-410 
+# Remove previous NVIDIA software installations and install driver 430
+
+Github page to install drivers from source and via apt-get
+https://gist.github.com/wangruohui/df039f0dc434d6486f5d4d098aa52d07
+
+430 driver was built with gcc-5.4 but seems to work well with gcc-5.5
+
 
 # Install CUDA
 Download from https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=runfilelocal
